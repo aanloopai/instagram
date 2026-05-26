@@ -65,15 +65,24 @@
 3. **Loop** — 4 sn extended loop (telefon hold music + diger re-use icin).
 
 **M-action**:
-- [ ] Suno Pro web UI log-in.
-- [ ] `prompts/suno/jingle.txt` -> Custom Mode prompt paste.
-- [ ] 5 varyant uret, en iyi 2'yi M sec.
-- [ ] Stem export: vocal + synth ayri (DaVinci re-mix icin).
-- [ ] 3 versiyon export et:
+- [x] Suno Pro web UI log-in. [DONE]
+- [x] `prompts/suno/jingle.txt` -> Custom Mode prompt paste. [DONE]
+- [x] Varyant uret + M sec. [DONE 2026-05-26 — https://suno.com/s/HS5kYHubXJE3Byda]
+- [ ] **Suno'dan stem export**: vocal + synth pad ayri WAV (DaVinci re-mix icin).
+- [ ] Suno'dan ana mix WAV indir -> `assets/audio/jingle/jingle_master.wav`.
+- [ ] DaVinci'de 3 versiyon kes:
   - `assets/audio/jingle/intro.wav` (1.8 sn forte cut)
   - `assets/audio/jingle/outro.wav` (2.0 sn sustained + swell)
-  - `assets/audio/jingle/loop_4s.wav` (4 sn loop)
-- [ ] M -> Claude'a "jingle hazir" sinyali, Fase 3 audio mix devam.
+  - `assets/audio/jingle/loop_4s.wav` (4 sn loop, hold music re-use)
+
+### Bed music (M yeni Suno run — `prompts/suno/bed_music.txt`)
+
+> **Sebep (M kurali 2026-05-26)**: "Jingle altta hafif calmali, muzikle beraber. Konusmalar daha belirgin." 4-katmanli mix: VO foreground + jingle hits + bed music underscore + SFX. Detay: `tasks/audio_mix.md`.
+
+- [ ] Suno Pro Custom Mode'a `prompts/suno/bed_music.txt` paste (Instrumental: ACIK — vokal-suz).
+- [ ] D minor 90 BPM (jingle ile uyumlu), 25 sn cinematic underscore uret.
+- [ ] 3 varyant, en iyiyi sec.
+- [ ] Export: `assets/audio/bed/underscore_25s.wav`.
 
 ### Logo overlay assets
 
@@ -128,15 +137,23 @@
 - [ ] 14 video shot timeline'a yerlestir (6 Veo + 8 Kling).
 - [ ] Shot suresi brief section 3.4 storyboard'a uy (0:00-0:25 = 25 sn).
 
-### Audio mix
+### Audio mix (DETAYLI PROTOKOL: `tasks/audio_mix.md`)
 
-- [ ] VO tracks (8 dosya) shot 06, 07, 08, 09a, 09b, 10, 11, 12 hizalandi.
-- [ ] Jingle intro (shot 04-06 transition) yerlestir.
-- [ ] Jingle outro (shot 12 final) yerlestir.
-- [ ] Yagmur SFX shot 01-03 ambient.
-- [ ] Kalp atisi bass-thump shot 02 4 cut ile sync.
-- [ ] Synth swell shot 03 signal moment + shot 06 reveal.
-- [ ] Audio normalize: -14 LUFS integrated, -1 dBFS true peak.
+4-katman: A1 VO (foreground -8dB) + A2 Jingle hits (intro+outro -6dB) + A3 Bed music underscore (-22dB sidechain) + A4 SFX (-18dB).
+
+- [ ] A1 VO tracks 8 dosya hizalandi (shot 06/07/08/09a/09b/10/11/12).
+- [ ] A1 EQ: HPF 200 Hz + presence +3 dB @ 3 kHz + de-ess.
+- [ ] A1 Compressor: 3:1, threshold -18 dB.
+- [ ] A2 Jingle intro yerlestir (shot 04-06 transition, otomasyon -6 dB hit).
+- [ ] A2 Jingle outro yerlestir (shot 12 final, otomasyon -6 dB hit).
+- [ ] A3 Bed music 25 sn underscore yerlestir (0-25s surekli -22 dB).
+- [ ] A3 Sidechain compressor: VO key input, ratio 4:1, threshold -22 dB.
+- [ ] A3 EQ: 1-4 kHz dip -4 dB (VO pocket).
+- [ ] A4 Yagmur SFX shot 01-03 ambient.
+- [ ] A4 Kalp atisi bass-thump shot 02 4 cut ile sync.
+- [ ] A4 Synth swell shot 03 signal + shot 06 reveal.
+- [ ] Master bus compressor 2:1 + normalize -14 LUFS + limiter -1 dBFS true peak.
+- [ ] QA: headphone + telefon hoparlor + sound-off test.
 
 ### Overlay graphics
 

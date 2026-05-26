@@ -1,0 +1,21 @@
+[Prompt - Suno v4 Pro — BED MUSIC (cinematic underscore)]
+
+Cinematic underscore for a 25-second commercial. Tempo 90 BPM, key D minor (same as jingle for harmonic alignment). Dynamic three-act arc:
+
+0-3s: Sparse low piano + sub-bass drone, tense isolated mood (like solo piano in a Hans Zimmer score), heartbeat-like pulse at 60bpm.
+
+3-7s: Build — adds soft strings layer rising in fifths, distant tribal floor-tom hits (very subtle, no drum kit), single deep synth swell.
+
+7-19s: Hero section — full sustained string pad + low brass undertone + minimal arpeggiated synth, confident-but-restrained, leaves a 800Hz pocket carved for spoken voiceover dialogue clarity. Maintain a 3-5 dB headroom dip in 1-4 kHz vocal range.
+
+19-22s: Resolution — strings warm into major-minor blend, soft glock or marimba sparkle, daylight feel.
+
+22-25s: Final swell merging into the jingle outro tonic — synth pad sustains D, ready to hand off to the choir jingle ending.
+
+Style tags: cinematic underscore, brand commercial, Hans Zimmer "Time" inspired, Drive (2011) night-neon mood, modern minimal, Dutch broadcast quality.
+
+Instrumentation allowed: piano, sub-bass drone, strings (legato sustained), low brass undertone, soft synth pad (Moog-style), distant tribal floor tom (very subtle), glock/marimba sparkle in last 3s. NO drum kit. NO percussion loops. NO vocals (the jingle choir layer is separate). NO lead melody that competes with spoken voiceover.
+
+Duration: 25 seconds (one continuous piece, no fade-out — script will trim).
+
+Critical: Mid-frequency pocket (1-4 kHz) must stay restrained throughout so a Dutch male voiceover can sit on top clearly without ducking artifacts.
