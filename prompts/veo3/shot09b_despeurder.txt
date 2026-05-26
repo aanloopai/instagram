@@ -1,0 +1,18 @@
+Camera: Medium shot right half-frame (composed for split-screen), 35mm, f/2.0.
+
+Setting: Holographic LinkedIn-style network map floating in mid-air, multiple small red lead-point markers pulsing across the map.
+
+Character: De Speurder - [REFERENCE IMAGE: despeurder_frontal.png] - Dutch female, 30, athletic, sniper-style visor pushed up on forehead, dark tactical vest with red HUD glow.
+
+Action: She points at the floating map with steady index finger, three red lead markers track to her gesture and lock in (small red bracket animations on each lock). Sharp focused expression.
+
+Dialogue (lip-sync REQUIRED, Dutch):
+"Vijftien nieuwe leads. Vanavond."
+
+Audio: Voice - Dutch female, age 28-32, low alto, confident decisive. Generate native audio.
+
+Style: Hyper-real, oxblood + cyan + red HUD accents. Composed for right half of 9:16 split screen.
+
+Duration: 2.0 seconds. 9:16 1080x1920. 1080p.
+
+No subtitles. No watermark.

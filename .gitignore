@@ -1,0 +1,39 @@
+# Secrets
+.env
+.env.local
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# AI-generated assets (regenerable, large)
+assets/characters/*.png
+assets/audio/vo/*.mp3
+assets/audio/vo/*.wav
+assets/audio/jingle/*.wav
+assets/audio/jingle/*.mp3
+assets/video/veo3/*.mp4
+assets/video/kling/*.mp4
+assets/output/*.mp4
+assets/output/*.mov
+
+# DaVinci Resolve
+*.drp
+*.drb
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Runtime
+tasks/errors.md

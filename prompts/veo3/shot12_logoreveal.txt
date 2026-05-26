@@ -1,0 +1,13 @@
+Camera: Centered full-frame, slow push-in 5% over duration, anamorphic lens.
+
+Setting: Full-frame oxblood gradient background (deep oxblood top-left to warm bone bottom-right). Clean, no objects.
+
+Action: Reserve negative space center-frame for post-production AanloopAI logo overlay (DaVinci will composite the real vector logo). Below center-frame reserve area for text "aanloopai.nl  Vanaf EUR 297/maand".
+
+Audio: A 5-10 person mixed-gender choir sings forte "Aan-loop-AI!" hitting the first beat, followed by a single deep synth swell sting (Moog-style) sustaining 1.2 seconds and ending on tonic. Then a warm male anchor VO speaks: "AanloopAI. Voor het MKB van morgen."
+
+Style: Premium minimal brand reveal. ARRI color, slight film grain. Cinematic.
+
+Duration: 3.0 seconds. 9:16 1080x1920. 1080p.
+
+No subtitles. No on-screen text (text added in post). No watermark.

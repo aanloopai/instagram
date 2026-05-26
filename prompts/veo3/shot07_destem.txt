@@ -1,0 +1,20 @@
+Camera: Medium close-up, slight low angle, 35mm anamorphic lens, shallow depth of field f/1.8. Subject centered slightly left of frame.
+
+Setting: Rain-streaked office window backdrop, blurred Rotterdam skyline neon bokeh, dark navy ambient lighting with single warm key light from camera-right.
+
+Character: De Stem - [REFERENCE IMAGE: destem_frontal.png] - Dutch male, 35, athletic build, wearing matte-black tactical headset wrapping ear to throat, subtle cyan throat-collar pulse. Composed, calm-warrior expression.
+
+Action: Character catches a falling smartphone mid-air with his right hand in slow-motion (60fps for the catch micro-segment, 24fps for the speaking part), brings it to his ear in one fluid motion, makes eye contact with camera, speaks one line.
+
+Dialogue (lip-sync REQUIRED, Dutch language):
+"Goedendag, met Alfa Reclame. Waarmee kan ik u helpen?"
+
+Audio: Voice timbre - warm Dutch male, age 30-35, mid-baritone, professional phone voice. Generate native audio matching this description. External audio will be muxed in post for final lip-sync alignment.
+
+Style: Cinematic, hyper-realistic, ARRI color science, slight film grain.
+
+Duration: 2.0 seconds.
+Aspect ratio: 9:16 (1080x1920).
+Resolution: 1080p.
+
+No subtitles. No on-screen text. No watermark.

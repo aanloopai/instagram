@@ -1,0 +1,18 @@
+Five micro-shots in 2 seconds. Each shot 0.4s. Wide angle, low angle hero shots.
+
+Locations (in order):
+1. Markthal interior arch, dusk, neon reflections on wet floor.
+2. Witte de Withstraat alley, rain, cobblestones, single streetlight.
+3. Maashaven docks, container yard backdrop, blue-hour sky.
+4. Coolsingel boulevard, tram passing in foreground.
+5. Zuidplein metro station entrance, fluorescent overhead light.
+
+Character per shot: A single silhouetted figure (full body, cape or trench coat element) facing camera, low angle, jumps upward in slow motion. Different costume silhouette per shot.
+
+Lighting: Neon-noir, oxblood and cyan gels, high contrast, anamorphic lens flares.
+
+Style: Cinematic action assembly montage. NL urban grounding. ARRI color, anamorphic widescreen cropped to 9:16.
+
+Audio: Choir vocal "Aan...!" hits exactly at frame 1 of the first sub-shot. Sub-bass drone underneath.
+
+Duration: 2.0s total (0.4s x 5). Aspect 9:16 1080x1920. No subtitles. No on-screen text.

@@ -1,0 +1,18 @@
+Camera: Medium shot left half-frame (composed for split-screen), 35mm, f/2.0.
+
+Setting: Dark office at night, multiple glowing chat balloons floating in air around the character, single cyan key light.
+
+Character: De Stem van de Site - [REFERENCE IMAGE: destemvandesite_frontal.png] - Dutch male, 27, hooded jacket with glowing geometric rune emblem.
+
+Action: He reaches out with right hand and one by one extinguishes 3 chat balloons that drift toward him (each balloon dissolves into pixel dust as touched). Last balloon dissolves on his line ending.
+
+Dialogue (lip-sync REQUIRED, Dutch):
+"24/7 op je website."
+
+Audio: Voice - Dutch male, age 25-30, clear digital-savvy young timbre. Generate native audio.
+
+Style: Cyberpunk-noir, oxblood + cyan, hyper-real. Composed for left half of 9:16 split screen.
+
+Duration: 2.0 seconds. 9:16 1080x1920. 1080p.
+
+No subtitles. No watermark.

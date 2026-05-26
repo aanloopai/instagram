@@ -1,0 +1,20 @@
+Camera: Two-shot medium, slightly low angle, 35mm anamorphic, f/2.0.
+
+Setting: Office interior at dawn, soft warm light coming through floor-to-ceiling window. A floating holographic dashboard visible in lower frame.
+
+Characters:
+- De Leermeester - [REFERENCE IMAGE: deleermeester_frontal.png] - Dutch male, 55, salt-and-pepper hair, charcoal blazer.
+- Erbil - Dutch male, 42, Mediterranean heritage, tired but slowly relaxing expression, seated.
+
+Action: De Leermeester gently places his right hand on the seated Erbil left shoulder, both look together at the floating dashboard. De Leermeester speaks looking slightly down toward Erbil, warm mentor tone. Erbil exhales subtly.
+
+Dialogue (lip-sync REQUIRED, Dutch, De Leermeester):
+"En wij leren het je. Stap voor stap."
+
+Audio: Voice - mature Dutch male 50+, mentor warmth, slow measured tempo. Generate native audio.
+
+Style: Hyper-real, warm cinematic, oxblood + warm bone palette, ARRI color.
+
+Duration: 3.0 seconds. 9:16 1080x1920. 1080p.
+
+No subtitles. No watermark.

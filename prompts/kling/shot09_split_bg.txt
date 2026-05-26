@@ -1,0 +1,10 @@
+Background plate for split-screen (Veo 3 characters composited on top).
+
+Left half: Dark office at night, multiple glowing chat balloons floating in cyan light around empty negative space (character will be composited).
+Right half: Holographic floating network map (LinkedIn-style) with red pulsing lead markers, empty negative space for character composite.
+
+Center vertical seam: subtle thin cyan light line as divider.
+
+Style: Hyper-real, anamorphic 35mm, oxblood + cyan + red HUD accents.
+
+Duration 2.0s. 9:16 1080x1920. No characters in frame. No text. No watermark.

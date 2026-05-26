@@ -1,0 +1,9 @@
+[Prompt - Suno v4 Pro]
+Brand mnemonic jingle. Three-syllable chant "Aan-loop-AI" sung by a small group of 7 people (mixed gender, age 25-45, warm Dutch accents). Tempo 90 BPM. D minor. Rising melodic motif sol-la-do, resolving. Recorded in a small intimate studio with subtle room reverb. Modern, confident, slightly cinematic. Hint of tribal-chant energy but kept tasteful and brandable. No instruments behind the voices except for a single deep synth pad (Moog-style) that swells in the last 800ms and ends on a clean tonic. No drums. No additional words.
+
+Duration: 2 seconds (intro version).
+Style tags: jingle, brand mnemonic, group vocal chant, cinematic, modern, Dutch, minimal.
+
+Generate two variants:
+1. Intro/cold version - sudden, forte, abrupt cut.
+2. Outro/resolve version - sustained, with synth swell tail.
