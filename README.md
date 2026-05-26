@@ -13,7 +13,7 @@ cp .env.example .env
 
 python -m venv .venv
 .venv\Scripts\activate           # Windows
-pip install google-generativeai elevenlabs python-dotenv
+pip install google-generativeai elevenlabs python-dotenv PyJWT requests
 
 # 2. API surface dogrula (Google API hizli evrildigi icin)
 python scripts/verify_apis.py
@@ -22,8 +22,8 @@ python scripts/verify_apis.py
 make characters       # Imagen 4: 5 char x 3 angle = 15 portre
 make vo               # ElevenLabs: 8 NL VO mp3
 make video            # Veo 3: 6 speaking shot
-# Manuel: Kling action shots (UI, prompts/kling/)
-# Manuel: Suno Pro jingle (UI, prompts/suno/jingle.txt)
+make kling            # Kling AI API: 8 action / b-roll shot
+# Manuel: Suno Pro jingle (UI, prompts/suno/jingle.txt — Suno API yok)
 
 # 4. Post
 make assemble         # DaVinci FCP XML build

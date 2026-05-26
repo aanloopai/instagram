@@ -1,6 +1,6 @@
-.PHONY: all verify characters vo video jingle assemble clean
+.PHONY: all verify characters vo video kling jingle assemble clean
 
-all: verify characters vo video assemble
+all: verify characters vo video kling assemble
 
 verify:
 	@echo "==> API surface verification"
@@ -17,9 +17,10 @@ vo:
 video:
 	@echo "==> Veo 3: 6 speaking shots (Google AI Studio)"
 	python scripts/generate_veo3.py
-	@echo ""
-	@echo "MANUEL: Kling action shots via web UI (free tier 150 token/day)"
-	@echo "        Bkz: prompts/kling/shot##_*.txt"
+
+kling:
+	@echo "==> Kling AI API: 8 action / b-roll shots"
+	python scripts/generate_kling.py
 
 jingle:
 	@echo "MANUEL: Suno Pro web UI"

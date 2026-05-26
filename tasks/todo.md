@@ -15,15 +15,15 @@
 - [x] `README.md` yazildi. [DONE]
 - [x] `.gitignore` yazildi. [DONE]
 - [x] `.env.example` yazildi. [DONE]
-- [ ] `.env` olustu, gercek API key'ler dolduruldu (ELEVENLABS_API_KEY + GOOGLE_AI_STUDIO_KEY).
+- [x] `.env` lokal olustu (gitignored). [DONE 2026-05-26]
 - [ ] Python venv: `python -m venv .venv` + activate.
-- [ ] Deps: `pip install google-generativeai elevenlabs python-dotenv`.
+- [ ] Deps: `pip install google-generativeai elevenlabs python-dotenv PyJWT requests`.
 - [ ] `python scripts/verify_apis.py` calistir, output OK.
-- [ ] Brand logo `assets/logo/aanloopai.svg` kopyalandi (aanloop ana repo'dan).
+- [x] Brand logo `assets/logo/aanloopai.svg` kopyalandi (aanloop ana repo'dan). [DONE — 5 SVG/PNG]
 - [ ] Brand logo PNG 200x60 transparent bug version hazirlandi (DaVinci veya Inkscape).
 - [ ] ElevenLabs Voice Library tarama: `GET /v1/voices?language=nl` -> 6 voice ID sec, `.env`'e yaz.
 - [ ] (Opsiyonel) ElevenLabs Voice Lab clone: kendi sample'in ile NL ses uret (Erbil veya fallback ses).
-- [ ] `git init` + ilk commit: `chore: initial scaffold for AanloopAI reklam (Konsept A)`.
+- [x] `git init` + ilk commit: `d4780ed`. [DONE]
 
 ---
 
@@ -43,15 +43,37 @@
 - [ ] Her VO'yu dinle, telaffuz QA (NL dogru mu? "AanloopAI" net mi?).
 - [ ] Sesleri saklamak gerekirse re-generate (stability 0.45 -> 0.55 dene).
 
-### Jingle (Suno Pro)
+### Jingle (Suno Pro — MANUEL, M ile birlikte)
 
-- [ ] Suno Pro'ya log-in (web UI).
-- [ ] `prompts/suno/jingle.txt` icerigi Suno'ya yapistir.
-- [ ] 5 varyant uret, en iyi 2'yi sec.
-- [ ] Sec versiyonu stem export et: vocal + synth ayri.
-- [ ] Intro version (forte, abrupt cut, 1.8 sn) -> `assets/audio/jingle/intro.wav`.
-- [ ] Outro version (sustained + synth swell, 2.0 sn) -> `assets/audio/jingle/outro.wav`.
-- [ ] 4 sn loop version (hold music re-use icin) -> `assets/audio/jingle/loop_4s.wav`.
+> **Suno API durumu (2026-05-26)**: Suno resmi public API YOK — sadece enterprise/internal endpoint. 3rd-party reverse-engineered proxy'ler (sunoapi.org, suno-api GitHub) var ama TOS riskli ve unstable. **Karar: web UI manuel uretim, stem export Suno Pro panelinden.**
+
+**Jingle tek-bakista spec** (brief section 6.1 + storyboard):
+
+| Parametre | Deger |
+|---|---|
+| Hece | 3 (AAN - LOOP - AY) |
+| Motif | Sol -> La -> Do (yukselen, cozulen) |
+| Tonalité | D minor (warm, brand) |
+| Tempo | 90 BPM |
+| Ses | 7-kisilik karma-cinsiyet koro, 25-45 yas, warm Dutch accent |
+| Enstruman | Sadece vokal + tek deep synth pad (Moog-style) son 800 ms swell |
+| Drum | YOK |
+
+**3 versiyon gerekli**:
+1. **Intro** — 1.8 sn forte abrupt cut (shot 04-06 transition icin).
+2. **Outro** — 2.0 sn sustained + synth swell tail (shot 12 final icin).
+3. **Loop** — 4 sn extended loop (telefon hold music + diger re-use icin).
+
+**M-action**:
+- [ ] Suno Pro web UI log-in.
+- [ ] `prompts/suno/jingle.txt` -> Custom Mode prompt paste.
+- [ ] 5 varyant uret, en iyi 2'yi M sec.
+- [ ] Stem export: vocal + synth ayri (DaVinci re-mix icin).
+- [ ] 3 versiyon export et:
+  - `assets/audio/jingle/intro.wav` (1.8 sn forte cut)
+  - `assets/audio/jingle/outro.wav` (2.0 sn sustained + swell)
+  - `assets/audio/jingle/loop_4s.wav` (4 sn loop)
+- [ ] M -> Claude'a "jingle hazir" sinyali, Fase 3 audio mix devam.
 
 ### Logo overlay assets
 
@@ -74,18 +96,19 @@
 - [ ] Shot 12 (CTA + jingle resolve) — gercek logo overlay icin temiz BG.
 - [ ] Tum 6 shot 9:16 1080x1920 24fps H.264 export.
 
-### Action / b-roll shots (Kling AI free tier)
+### Action / b-roll shots (Kling AI API — `make kling`)
 
-- [ ] Shot 01 hook (Erbil eli + 23 missed call + yagmur) — `prompts/kling/shot01_hook.txt`.
-- [ ] Shot 02 problem amplify (4 cut: WhatsApp + Gmail + saat + yuz) — `shot02_amplify.txt`.
-- [ ] Shot 03 signal moment (Rotterdam skyline + Erasmusbrug + sky-projeksiyon) — `shot03_signal.txt`.
-- [ ] Shot 04 assemble silhouettes (5 lokasyon, 0.4 sn each) — `shot04_assemble.txt`.
-- [ ] Shot 05 entry (ofis kapisi patlama, 5 silhouette giris) — `shot05_entry.txt`.
-- [ ] Shot 06 intro wide (5 kahraman tam cerceve + Erbil arkada) — `shot06_introwide.txt`.
-- [ ] Shot 09 split BG (chat ofis + LinkedIn harita) — `shot09_split_bg.txt`.
-- [ ] Shot 11 resolution (Erbil gun isiginda gulumser, telefon 12 leads) — `shot11_resolution.txt`.
-- [ ] Kling daily token limit (150) — 2 gune yayilir varsayim.
-- [ ] Tum 8 shot 9:16 1080x1920 H.264 export.
+- [ ] `make kling` calistir -> 8 MP4 generated (`assets/video/kling/`).
+- [ ] Shot 01 hook (Erbil eli + 23 missed call + yagmur).
+- [ ] Shot 02 problem amplify (4 cut: WhatsApp + Gmail + saat + yuz).
+- [ ] Shot 03 signal moment (Rotterdam skyline + Erasmusbrug + sky-projeksiyon).
+- [ ] Shot 04 assemble silhouettes (5 lokasyon, 0.4 sn each).
+- [ ] Shot 05 entry (ofis kapisi patlama, 5 silhouette giris).
+- [ ] Shot 06 intro wide (5 kahraman tam cerceve + Erbil arkada).
+- [ ] Shot 09 split BG (chat ofis + LinkedIn harita).
+- [ ] Shot 11 resolution (Erbil gun isiginda gulumser, telefon 12 leads).
+- [ ] Kling daily quota check (free tier kotaya yaklasinca shot bazli `--only` calistir).
+- [ ] Tum 8 shot 9:16 H.264 dogrula.
 
 ### Audio prep
 
@@ -196,6 +219,14 @@
 
 ## Statu
 
-- **Aktif fase**: Fase 0 (Setup) — repo iskelet ve root files Claude Code tarafindan otomatik tamamlandi.
-- **Sonraki adim (M)**: `.env` doldur + Voice Library tarama + `verify_apis.py` calistir.
-- **Tahmini E2E**: 5-7 gun (M user-action'lari hizinda).
+- **Aktif fase**: Fase 0 (Setup) — ~%70 tamamlandi.
+  - Repo iskelet + commit `d4780ed` DONE.
+  - `.env` lokal dolduruldu (4 API key: ElevenLabs + Google AI Studio + Kling + Pixabay) DONE.
+  - Brand logo copy DONE.
+- **Sonraki adim (M)**:
+  1. `python -m venv .venv` + activate.
+  2. `pip install google-generativeai elevenlabs python-dotenv PyJWT requests`.
+  3. `python scripts/verify_apis.py` -> NL voice ID listele.
+  4. `.env` icindeki 6 voice ID slotunu doldur.
+- **Tahmini E2E**: 5-7 gun (Kling artik API'de, manuel UI gerek yok — daha hizli).
+- **Jingle**: Suno Pro web UI manuel (API yok). Spec yukarida. M Fase 1 sirasinda paralel calisir.

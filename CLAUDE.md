@@ -43,8 +43,8 @@ make verify        # API surface dogrulamasi
 make characters    # Imagen 4 portreleri (15 dosya)
 make vo            # ElevenLabs VO (8 MP3)
 make video         # Veo 3 speaking shots (6 MP4)
-# Manuel: Kling free tier action shots (UI, prompts/kling/)
-# Manuel: Suno Pro jingle (UI, prompts/suno/jingle.txt)
+make kling         # Kling AI API: 8 action / b-roll shots
+# Manuel: Suno Pro jingle (web UI — Suno resmi API yok)
 make assemble      # DaVinci timeline build
 ```
 
