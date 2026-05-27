@@ -1,0 +1,40 @@
+Shot 07 — Social proof + CTA bridge (1:03-1:14)
+================================================
+
+Reference image: assets/characters/narrator/frontal.png
+
+NL VO (verbatim, 10-11s budget):
+  "Niet gek dat onze klanten ons 4,9 uit 5 sterren geven op Google. Dus wil
+  jij ontdekken hoe AI jouw MKB kan laten groeien? Claim nu jouw gratis
+  AI-Readiness Scan."
+
+Veo 3 omni prompt:
+  The man in the reference image, exact same identity, frontal medium close-up,
+  same outfit and backdrop. The closer of the ad. On "Niet gek dat" subtle
+  knowing smile (validated/proud). On "4,9 uit 5 sterren" confident matter-of-
+  fact delivery (not bragging). On "Dus wil jij ontdekken hoe AI" head tilts a
+  fraction toward camera (direct address). On "Claim nu" the delivery sharpens
+  into a clean call-to-action — slight forward intent in posture (no zoom),
+  confident smile, eyes locked to camera. Held final beat for transition to
+  CTA card. Hands not visible. Natural blinks. Locked camera.
+
+Audio config:
+  voice: same Dutch male, identity match
+  energy: 7/10 -> 9/10 build on CTA
+  pacing: 145 WPM -> 130 WPM slowing on "Claim nu" for clarity
+  pronunciation: "4,9 uit 5 sterren" — "vier-komma-negen uit vijf sterren"
+                 "AI-Readiness Scan" — same clean English loanword as shot 05
+  emphasis: "Claim nu" spoken with mild urgency punch, NOT shouted
+  background: silent studio
+
+Duration: 11s
+Aspect: 9:16 1080x1920 24fps
+Output: assets/video/konsept_r/veo3/shot_07.mp4
+
+DaVinci overlay note: aanloopai bug logo (200x60 top-of-frame) persists
+throughout. At t=8.0s, prepare transition to CTA card — soft fade-out of
+narrator while CTA card scales in over white grid background.
+
+Cut point: 11.0s — fade-through-white (0.4s) to CTA CARD:
+                   "Claim nu jouw / gratis AI-Readiness Scan / Ontdek jouw
+                   AI-kans / [CLAIM NU]" — holds 3-4s as final shot.

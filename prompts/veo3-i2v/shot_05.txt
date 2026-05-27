@@ -1,0 +1,33 @@
+Shot 05 — Offer reveal + Open loop (0:35-0:42)
+===============================================
+
+Reference image: assets/characters/narrator/frontal.png
+
+NL VO (verbatim, 7s budget):
+  "En omdat we Nederland willen veroveren, bieden we tijdelijk een gratis
+  AI-Readiness Scan. Wat krijg je?"
+
+Veo 3 omni prompt:
+  The man in the reference image, exact same identity, frontal medium close-up,
+  same outfit and backdrop. Direct delivery. On "Nederland willen veroveren"
+  confident smile widens (ambition/positive). On "gratis AI-Readiness Scan"
+  delivery sharpens (offer-name emphasis), slight forward intent in posture
+  (no zoom). On "Wat krijg je?" eyebrows raise into a clean open question,
+  brief held expression at end of clip for cut. Hands not visible. Natural
+  blinks. Locked camera.
+
+Audio config:
+  voice: same Dutch male, identity match
+  energy: 8/10 (offer-reveal energy peak)
+  pacing: 150 WPM
+  pronunciation: "AI-Readiness Scan" — "AY-rea-di-ness scan" (English
+                 loanwords pronounced cleanly, not over-Dutchified)
+  background: silent studio
+
+Duration: 7s
+Aspect: 9:16 1080x1920 24fps
+Output: assets/video/konsept_r/veo3/shot_05.mp4
+
+Cut point: 7.0s — whip-pan to WHITE GRID SLIDE "De eerste 20 MKB'ers" with
+                  buildings icon (1.5s), then second slide "drie grootste
+                  AI-kansen" with EUR icon (1.5s). Then back to Shot 06.

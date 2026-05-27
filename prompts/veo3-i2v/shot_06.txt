@@ -1,0 +1,41 @@
+Shot 06 — Case study + Result stat (0:52-1:02)
+===============================================
+
+Reference image: assets/characters/narrator/three_quarter_left.png
+
+NL VO (verbatim, 9-10s budget) [STATS PLACEHOLDER — USER VERIFY]:
+  "Zo bouwden wij voor [een Nederlandse webshop] in [4 weken] Marco. Hij belde
+  [312 leads] in zijn eerste maand. Conversion verdubbelde naar [14 procent]."
+
+Veo 3 omni prompt:
+  The man in the reference image, exact same identity, head turned slightly
+  camera-left at 15 degrees, storytelling angle. Same outfit and backdrop. He
+  narrates a case with the natural cadence of someone recounting a recent win
+  (proud not boastful). On "Zo bouwden wij" warm smile of pride. On "in 4
+  weken" subtle head-nod of efficiency. On "312 leads" eyebrows lift
+  briefly (impressive number cue). On "verdubbelde" confident assertion. On
+  "14 procent" sharp clean delivery, held final expression for cut. Hands not
+  visible. Natural blinks. Locked camera.
+
+Audio config:
+  voice: same Dutch male, identity match
+  energy: 7/10 -> 8/10 build on numbers
+  pacing: 140 WPM
+  pronunciation: "Marco" with neutral Dutch stress (MAR-ko), numbers spoken
+                 clearly (driehonderdtwaalf for 312, veertien for 14)
+  background: silent studio
+
+Duration: 10s (second longer shot)
+Aspect: 9:16 1080x1920 24fps
+Output: assets/video/konsept_r/veo3/shot_06.mp4
+
+DaVinci overlay note: subtitle highlight on "312 leads" (color blue accent
+matching CTA) at t=4.0-5.5s. Subtitle highlight on "14 procent" at
+t=8.5-10.0s. Both phrases stay visible 0.5s after spoken end.
+
+Cut point: 10.0s — hard cut to Shot 07.
+
+STAT-VERIFY GATE: replace [een Nederlandse webshop] with real customer name
+ONLY if user has written consent. Default = anonymized. Replace [4 weken],
+[312 leads], [14 procent] with real Aanloop numbers before generate. Spec §8
+questions 3+4.

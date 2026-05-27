@@ -1,0 +1,40 @@
+Shot 04 — Mechanism + Proof stat (0:24-0:34)
+=============================================
+
+Reference image: assets/characters/narrator/three_quarter_right.png
+
+NL VO (verbatim, 9-10s budget) [STATS PLACEHOLDER — USER VERIFY BEFORE GENERATE]:
+  "Samen kijken we naar jouw bedrijf en bouwen we de AI-collega met het hoogste
+  rendement. Onze klanten besparen gemiddeld [18 uur per week] en
+  [4.200 euro per maand] aan personeelskosten."
+
+Veo 3 omni prompt:
+  The man in the reference image, exact same identity, head turned slightly to
+  camera-right at 15 degrees. Same outfit and backdrop. He explains the
+  mechanism with calm authority. On "Samen" he tilts head a fraction toward
+  camera (collaboration cue). On "hoogste rendement" mild smile of confidence.
+  On the numbers ("18 uur per week", "4.200 euro per maand") delivery slows
+  imperceptibly so subtitle reads cleanly. Hands not visible. Natural blinks.
+  Locked camera.
+
+Audio config:
+  voice: same Dutch male, identity match
+  energy: 7/10
+  pacing: 140 WPM (slower for numbers comprehension)
+  emphasis: numbers spoken with slight punch — "achttien uur per week",
+            "tweeenveertighonderd euro per maand"
+  background: silent studio
+
+Duration: 10s (one of two longer shots; segments collapsed)
+Aspect: 9:16 1080x1920 24fps
+Output: assets/video/konsept_r/veo3/shot_04.mp4
+
+DaVinci overlay note: clock-icon overlay appears top-third at t=5.0s (when "18
+uur" is spoken), simple line-art clock + animated hour-hand spin (1s
+animation), then fades at 9.0s.
+
+Cut point: 10.0s — hard cut to Shot 05.
+
+STAT-VERIFY GATE: replace [18 uur per week] and [4.200 euro per maand] with
+real anonymized Aanloop case-study averages before running `make video-r`.
+Spec §8 question 4. Mock-data ASLA per CLAUDE.md.

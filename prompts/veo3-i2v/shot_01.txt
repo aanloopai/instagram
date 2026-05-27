@@ -1,0 +1,33 @@
+Shot 01 — Hook + Bridge (0:00-0:08)
+====================================
+
+Reference image: assets/characters/narrator/frontal.png
+
+NL VO (verbatim, 7-8s budget):
+  "Overweeg jij AI te implementeren in je MKB, maar weet je niet waar te
+  beginnen? Dan is deze video voor jou."
+
+Veo 3 omni prompt:
+  The man in the reference image, exact same identity, same face, same hair,
+  same outfit white t-shirt with black lavalier microphone, same burnt-orange
+  oxblood backdrop, locked-off medium close-up camera, head and chest framing.
+  He speaks directly to camera in Dutch with native Randstad accent, calm
+  confident delivery, slight friendly smile starting neutral and warming as
+  question lands. Subtle natural head movement, eyebrows raise gently on the
+  word "AI" and again on "concreet". Natural eye blinks every 3-4 seconds.
+  Mouth lip-syncs accurately to spoken Dutch. Hands not visible. No body
+  movement below shoulders. Single light source warm key from front-left,
+  studio quiet. Locked tripod, no camera shake.
+
+Audio config:
+  voice: Dutch male native, age 32-36, calm authoritative, conversational
+         creator-style (NOT broadcaster monotone), slight Randstad accent
+  energy: 7/10 (engaging not aggressive)
+  pacing: 150 WPM natural
+  background: silent studio (no ambient room tone, no music)
+
+Duration: 8s
+Aspect: 9:16 1080x1920 24fps
+Output: assets/video/konsept_r/veo3/shot_01.mp4
+
+Cut point: 8.0s — hard cut to Shot 02 (no fade)

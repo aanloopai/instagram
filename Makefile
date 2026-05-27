@@ -1,4 +1,4 @@
-.PHONY: all verify characters vo video kling jingle assemble clean
+.PHONY: all verify characters narrator narrator-full vo video kling jingle assemble clean
 
 all: verify characters vo video kling assemble
 
@@ -7,8 +7,16 @@ verify:
 	python scripts/verify_apis.py
 
 characters:
-	@echo "==> Imagen 4: 5 character x 3 angle = 15 portraits"
+	@echo "==> Imagen 4: 5 character x 3 angle = 15 portraits (Konsept A)"
 	python scripts/generate_characters.py
+
+narrator:
+	@echo "==> Imagen 4: NL-male IT-expert narrator (Konsept R) sample mode 2/angle"
+	python scripts/generate_narrator.py
+
+narrator-full:
+	@echo "==> Imagen 4: NL-male IT-expert narrator (Konsept R) FULL 8/angle = 40 portraits"
+	python scripts/generate_narrator.py --full
 
 vo:
 	@echo "==> ElevenLabs: 8 NL voiceovers"

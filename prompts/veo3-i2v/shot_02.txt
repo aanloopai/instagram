@@ -1,0 +1,37 @@
+Shot 02 — Brand reveal + Product proof intro (0:09-0:16)
+=========================================================
+
+Reference image: assets/characters/narrator/three_quarter_left.png
+
+NL VO (verbatim, 7-8s budget):
+  "Bij AanloopAI bouwen wij AI-collega's voor MKB'ers in Nederland. Marco belt
+  je leads. Emma handelt je e-mail af."
+
+Veo 3 omni prompt:
+  The man in the reference image, exact same identity preserved from frontal
+  reference, head turned slightly to camera-left at 15 degrees, eyes engaging
+  the lens, same white t-shirt with lavalier microphone, same burnt-orange
+  oxblood backdrop. He speaks in Dutch with calm confident creator-style
+  delivery. On "AanloopAI" his head straightens slightly toward camera as if
+  emphasizing brand name. On "Marco" and "Emma" he gestures subtly with eye
+  movement (no hand gestures, hands not visible). Natural blinks. Slight smile
+  throughout. Studio lighting and posture identical to reference. Locked-off
+  camera.
+
+Audio config:
+  voice: same Dutch male voice as shot_01 (identity consistency critical)
+  energy: 7/10
+  pacing: 150 WPM
+  special pronunciation: "AanloopAI" spoken clearly as "AAN-loop-ai" (3
+                         syllables), NOT "an-loop-ay" or anglicized "anlop-ay"
+  background: silent studio
+
+Duration: 8s
+Aspect: 9:16 1080x1920 24fps
+Output: assets/video/konsept_r/veo3/shot_02.mp4
+
+Cut point: 8.0s — hard cut to floating UI screenshot insert (shot_ui_01,
+                  Marco dashboard) ~1.5s, then back to talking-head shot_03
+
+DaVinci overlay note: aanloopai logo appears top-of-frame at t=0.5s (200x60px
+bug logo, semi-transparent, fade-in 0.3s) and persists for full shot duration.

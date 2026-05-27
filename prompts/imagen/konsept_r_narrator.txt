@@ -1,0 +1,104 @@
+# Imagen 4 — Konsept R narrator (NL male IT-expert)
+
+> Reklam icin photoreal NL-male IT-expert anlatici. Aanloop persona = generic
+> (Mustafa degil). Revido reklamindaki kadinin erkek karsiligi: warm but
+> credible, MKB owner'a "ben bunu yaptim, simdi sen yapabilirsin" mesaji veren
+> profesyonel narrator.
+
+## Master prompt (frontal, primary)
+
+```
+Ultra-photorealistic 9:16 vertical portrait photograph of a Dutch male tech
+expert and AI consultant, 34 years old, Northern European features, short
+medium-brown hair with subtle natural grey at the temples, light well-groomed
+stubble, intelligent warm hazel eyes with direct eye contact to camera,
+confident relaxed smile (approachable not aggressive), clean fresh skin with
+natural pores and subtle imperfections, wearing a plain crisp white crew-neck
+cotton t-shirt, small black DPA-style lavalier microphone clipped to t-shirt
+collar clearly visible, medium close-up framing showing head and chest, calm
+confident posture, slight head tilt, hands not visible, creator-studio YouTube
+setup, seamless burnt-orange / oxblood paper backdrop hex #a0301a filling
+entire background, soft three-point lighting with warm key light from front-
+left at 30 degrees, gentle fill from front-right, subtle rim light separating
+subject from background, sharp focus on eyes catchlights visible, shallow depth
+of field f/2.8 portrait lens compression, 85mm full-frame look, shot on Sony
+A7 IV with 85mm f/1.4 GM, natural professional commercial photography, no
+post-processing artifacts, no plastic skin, no oversmoothed AI face, no extra
+fingers, no distorted ears, no asymmetric eyes, photojournalism realism,
+1080x1920 vertical Reels aspect ratio
+```
+
+Negative prompt (Imagen 4 supports negative_prompt arg):
+
+```
+plastic skin, oversmoothed face, doll-like, uncanny valley, asymmetric eyes,
+distorted features, extra fingers, melted ears, cartoon, 3d render, cgi,
+illustration, painting, anime, low resolution, blurry, jpeg artifacts, text,
+watermark, logo, fingers visible, hand visible, full body, wide shot, busy
+background, props, computer, laptop, desk, sunglasses, hat, beard full,
+moustache thick, tattoos, jewelry necklace, multiple subjects, two people,
+woman, female, elderly, child, teenager
+```
+
+## Angle variants
+
+### Frontal (master)
+Use master prompt above. Output: `assets/characters/narrator/frontal.png`.
+
+### 3/4 left
+Replace "direct eye contact to camera" with: "head turned slightly to left at 15
+degrees, eyes still engaging camera, three-quarter view showing left ear
+partially". Output: `assets/characters/narrator/three_quarter_left.png`.
+
+### 3/4 right
+Mirror 3/4 left, head turned right 15 degrees. Output:
+`assets/characters/narrator/three_quarter_right.png`.
+
+### Profile left (B-roll)
+"Pure side profile, head turned 90 degrees left, looking off-camera at
+imaginary monitor". Output: `assets/characters/narrator/profile_left.png`.
+
+### Wider shot (slide-overlay composite)
+"Medium-wide shot showing chest and arms folded relaxed, same outfit and
+backdrop, hands visible folded across stomach calm". Output:
+`assets/characters/narrator/wider.png`.
+
+## QA gate
+
+Before commit to Veo 3 image-to-video:
+
+- [ ] Native NL appearance (Northern European features, not generic American)
+- [ ] Age 32-36 (credible IT-expert)
+- [ ] White T-shirt clean, no logo/print
+- [ ] Lavalier mic visible
+- [ ] Oxblood backdrop solid color
+- [ ] Skin texture natural, NOT plastic/AI-uncanny
+- [ ] Eyes symmetric, catchlights visible
+- [ ] Single subject, no extra body parts
+- [ ] 9:16 1080x1920 aspect strict
+
+Generate 6-10 variant per angle. M kullanici sececek best per angle. 5-kisi
+blind test "guvenilir mi? AI gibi mi?" — %80+ "gercek" demeli.
+
+## Image-to-video handoff (Veo 3)
+
+Sec edilen frontal PNG -> Veo 3 omni image-to-video endpoint:
+
+```python
+# Veo 3 image-to-video pseudo-call
+veo3.generate(
+    reference_image="assets/characters/narrator/frontal.png",
+    prompt="<NL VO transcript for this 8s shot> spoken by the man in the
+    reference image, lip-sync accurate, same backdrop and lighting, head moves
+    naturally with subtle gesture, eyes blink naturally, mouth moves with
+    spoken words, no body movement, locked-off camera",
+    audio_prompt="<NL voice, Dutch native male 32-36, calm confident
+    delivery, slight Randstad accent, no monotone>",
+    duration_seconds=8,
+    aspect_ratio="9:16",
+    resolution="1080x1920",
+)
+```
+
+Per shot prompt template at `prompts/veo3-i2v/shot_##.txt` (Fase 1'de yedi
+shot dosyasi yazilacak).
