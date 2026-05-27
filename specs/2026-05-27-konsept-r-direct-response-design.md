@@ -75,13 +75,13 @@ Hook → Brand reveal → Product proof → Guarantee → Mechanism → Stat
 | 5 | 0:15-0:20 | Guarantee | "En het mooiste? Maakt Marco binnen 3 maanden geen 5 nieuwe afspraken? Dan krijg je elke euro terug." | TH "En het mooiste" subtitle |
 | 6 | 0:21-0:23 | Risk-reversal slide | (echo VO) | WHITE GRID "Dan krijg je elke euro terug." (blue accent) |
 | 7 | 0:24-0:28 | Mechanism | "Samen kijken we naar jouw bedrijf en bouwen we de AI-collega met het hoogste rendement." | TH |
-| 8 | 0:29-0:34 | Proof stat | "Onze klanten besparen gemiddeld 18 uur per week en 4.200 euro per maand aan personeelskosten." | Clock icon overlay + TH "onze klanten" |
+| 8 | 0:29-0:34 | Generic benefit | "Onze klanten besparen daardoor tijd op handmatig werk en personeelskosten." | Clock icon overlay + TH "tijd op handmatig werk" |
 | 9 | 0:35-0:40 | Offer reveal | "En omdat we Nederland willen veroveren, bieden we tijdelijk een gratis AI-Readiness Scan." | TH "willen helpen" |
 | 10 | 0:41 | Open loop | "Wat krijg je?" | TH |
 | 11 | 0:42-0:50 | Specificity | "De eerste 20 MKB'ers die zich aanmelden krijgen binnen 48 uur een persoonlijk AI-plan met de drie grootste kansen voor hun bedrijf." | WHITE GRID "De eerste 20 MKB'ers" + buildings icon |
 | 12 | 0:50-0:51 | Urgency | "Dus wees er snel bij." | GRID "drie grootste AI-kansen" + EUR icon |
-| 13 | 0:52-0:56 | Case study | "Zo bouwden wij voor Albers Webshops in 4 weken Marco." | TH "Zo bouwden wij" + subtitle "in 4 weken" |
-| 14 | 0:57-1:02 | Result stat | "Hij belde 312 leads in zijn eerste maand. Conversion verdubbelde naar 14 procent." | TH + subtitle "312 leads" / "14 procent" |
+| 13 | 0:52-0:56 | Generic behavior claim | "Zo werkt Marco voor onze klanten: hij belt 24/7, mist nooit een lead..." | TH "Zo werkt Marco" + subtitle "24/7" |
+| 14 | 0:57-1:01 | Behavior claim 2 | "...en zorgt voor meer afspraken in minder tijd." | TH + subtitle "meer afspraken in minder tijd" |
 | 15 | 1:03-1:06 | Social proof | "Niet gek dat onze klanten ons 4,9 uit 5 sterren geven op Google." | TH + aanloopai logo overlay |
 | 16 | 1:07-1:11 | CTA-bridge | "Dus wil jij ontdekken hoe AI jouw MKB kan laten groeien?" | TH "hoe AI" subtitle |
 | 17 | 1:12-1:14 | CTA card | "Claim nu jouw gratis AI-Readiness Scan." | CTA CARD: "Claim nu jouw / gratis AI-Readiness Scan / Ontdek jouw AI-kans / [CLAIM NU]" |
@@ -266,8 +266,8 @@ Full Konsept R per script.
 
 1. ~~**Mustafa yuz mu, generic NL-male persona mi?**~~ ✅ RESOLVED 2026-05-27: Generic NL-male IT-expert (Imagen 4 generated, photoreal). Prompt: `prompts/imagen/konsept_r_narrator.txt`.
 2. **AI-Readiness Scan landing var mi?** _DEFAULT_: yeni route `aanloopai.nl/ai-readiness-scan` (Brevo capture + Marco callback). Aanloop master ayri sessiyon. — User onay/override gerek.
-3. **Albers Webshops case study izin?** _DEFAULT_: anonymize, "Een NL webshop" kullan, gercek isim YOK. User izinli isim verirse uygun.
-4. **312 leads / 14% conv stat dogru mu?** _STRICT_: mock-data ASLA. User gercek anonim rakam verene kadar placeholder kalsin (Veo 3 generation BLOKED gercek rakam gelene kadar).
+3. ~~**Albers Webshops case study izin?**~~ ✅ RESOLVED 2026-05-27: case study iptal. Shot 06 generic behavior claim (Marco 24/7, mist nooit een lead, meer afspraken in minder tijd). Mock-data riski sifir.
+4. ~~**312 leads / 14% conv stat dogru mu?**~~ ✅ RESOLVED 2026-05-27: user "genel claim ile devam" karari. Hicbir spesifik rakam VO'da yok. Shot 04 generic benefit claim, shot 06 generic behavior claim. Honesty-safe.
 5. **Suno jingle reuse?** _DEFAULT_: Konsept A jingle intro (1.8s) + outro (2.0s) Konsept R'ye de uygula. Test sonu sonra karar.
 
 ---

@@ -19,15 +19,18 @@
 
 Pattern: frontal/3-4 alternate per Revido reference rhythm.
 
-## Stat-verify gate (USER ACTION REQUIRED)
+## Stat-verify gate — RESOLVED 2026-05-27
 
-Shot 04 + Shot 06 contain placeholder rakam:
-- Shot 04: "18 uur per week" + "4.200 euro per maand"
-- Shot 06: "312 leads" + "14 procent" + "in 4 weken"
+User karari: **genel claim ile devam**. Hicbir spesifik rakam VO'da yok.
+- Shot 04: "tijd op handmatig werk en personeelskosten" (specific yok)
+- Shot 06: "24/7 / mist nooit een lead / meer afspraken in minder tijd"
+  (case study iptal, davranissal claim)
 
-Spec mock-data ASLA kurali. User gercek anonim Aanloop rakam vermeden Veo 3
-generate ETME. Eger gercek rakam farkliysa shot_04.txt + shot_06.txt VO satirini
-edit et, sonra `make video-r` calistir.
+Mock-data riski: SIFIR. Honesty-safe.
+
+Shot 07 "4,9 uit 5 sterren op Google" claim Aanloop GMB profile gercegine
+dayanir (spec §8 question default OK). Yayindan once Google review sayfasi
+ile spot-check.
 
 ## Brand reuse check
 
