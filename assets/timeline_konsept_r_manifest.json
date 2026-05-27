@@ -1,0 +1,240 @@
+{
+  "format": "9:16 1080x1920 24fps H.264",
+  "duration_s": 66.0,
+  "audio_target": "-14 LUFS, -1 dBFS peak",
+  "tracks": [
+    {
+      "track": "V1",
+      "label": "shot_01",
+      "start_s": 0.0,
+      "end_s": 8.0,
+      "duration_s": 8.0,
+      "source": "assets/video/konsept_r/veo3/shot_01.mp4",
+      "notes": "Hook + bridge \u2014 'Overweeg jij AI te implementeren...'"
+    },
+    {
+      "track": "V1",
+      "label": "shot_02",
+      "start_s": 8.0,
+      "end_s": 16.0,
+      "duration_s": 8.0,
+      "source": "assets/video/konsept_r/veo3/shot_02.mp4",
+      "notes": "Brand reveal \u2014 'Bij AanloopAI bouwen wij AI-collega's...'"
+    },
+    {
+      "track": "V1",
+      "label": "shot_03",
+      "start_s": 16.0,
+      "end_s": 24.0,
+      "duration_s": 8.0,
+      "source": "assets/video/konsept_r/veo3/shot_03.mp4",
+      "notes": "Guarantee tease \u2014 'En het mooiste? ...elke euro terug.'"
+    },
+    {
+      "track": "V1",
+      "label": "shot_04",
+      "start_s": 26.0,
+      "end_s": 34.0,
+      "duration_s": 8.0,
+      "source": "assets/video/konsept_r/veo3/shot_04.mp4",
+      "notes": "Mechanism \u2014 'Samen kijken we... tijd op handmatig werk...'"
+    },
+    {
+      "track": "V1",
+      "label": "shot_05",
+      "start_s": 34.0,
+      "end_s": 42.0,
+      "duration_s": 8.0,
+      "source": "assets/video/konsept_r/veo3/shot_05.mp4",
+      "notes": "Offer reveal \u2014 'gratis AI-Readiness Scan. Wat krijg je?'"
+    },
+    {
+      "track": "V1",
+      "label": "shot_06",
+      "start_s": 46.0,
+      "end_s": 54.0,
+      "duration_s": 8.0,
+      "source": "assets/video/konsept_r/veo3/shot_06.mp4",
+      "notes": "Marco behavior \u2014 '24/7, mist nooit een lead...'"
+    },
+    {
+      "track": "V1",
+      "label": "shot_07",
+      "start_s": 54.0,
+      "end_s": 62.0,
+      "duration_s": 8.0,
+      "source": "assets/video/konsept_r/veo3/shot_07.mp4",
+      "notes": "CTA bridge \u2014 'Claim nu jouw gratis AI-Readiness Scan.'"
+    },
+    {
+      "track": "V2",
+      "label": "slide_01_risk",
+      "start_s": 24.0,
+      "end_s": 26.0,
+      "duration_s": 2.0,
+      "source": "assets/slides/slide_01_risk_reversal.png",
+      "notes": "INSERT: 'Dan krijg je elke euro terug.' (blue)"
+    },
+    {
+      "track": "V2",
+      "label": "slide_02_eerste20",
+      "start_s": 42.0,
+      "end_s": 44.0,
+      "duration_s": 2.0,
+      "source": "assets/slides/slide_02_eerste_20.png",
+      "notes": "INSERT: 'De eerste 20 MKB'ers' + buildings"
+    },
+    {
+      "track": "V2",
+      "label": "slide_03_kansen",
+      "start_s": 44.0,
+      "end_s": 46.0,
+      "duration_s": 2.0,
+      "source": "assets/slides/slide_03_drie_kansen.png",
+      "notes": "INSERT: 'drie grootste AI-kansen' + EUR"
+    },
+    {
+      "track": "V2",
+      "label": "slide_04_urgency",
+      "start_s": 53.0,
+      "end_s": 54.0,
+      "duration_s": 1.0,
+      "source": "assets/slides/slide_04_urgency.png",
+      "notes": "INSERT: 'Wees er snel bij' (red, 1s only)"
+    },
+    {
+      "track": "V2",
+      "label": "slide_05_cta_card",
+      "start_s": 62.0,
+      "end_s": 66.0,
+      "duration_s": 4.0,
+      "source": "assets/slides/slide_05_cta_card.png",
+      "notes": "FINAL CTA CARD hold 4s"
+    },
+    {
+      "track": "V3",
+      "label": "ui_marco",
+      "start_s": 10.0,
+      "end_s": 12.0,
+      "duration_s": 2.0,
+      "source": "assets/ui/mockup_01_marco_dashboard.png",
+      "notes": "Marco dashboard float, 12deg tilt right, soft shadow, scale 0.7"
+    },
+    {
+      "track": "V3",
+      "label": "ui_emma",
+      "start_s": 13.0,
+      "end_s": 15.0,
+      "duration_s": 2.0,
+      "source": "assets/ui/mockup_02_emma_chat.png",
+      "notes": "Emma chat float, 12deg tilt left, soft shadow, scale 0.7"
+    },
+    {
+      "track": "V3",
+      "label": "ui_readiness",
+      "start_s": 37.0,
+      "end_s": 39.0,
+      "duration_s": 2.0,
+      "source": "assets/ui/mockup_03_ai_readiness.png",
+      "notes": "AI-Readiness landing float, 8deg tilt right, scale 0.65"
+    },
+    {
+      "track": "V3",
+      "label": "logo_bug",
+      "start_s": 8.0,
+      "end_s": 62.0,
+      "duration_s": 54.0,
+      "source": "assets/logo/aanloopai-bug.png",
+      "notes": "Persistent 200x60 top-left bug logo (semi-transparent)"
+    },
+    {
+      "track": "V4",
+      "label": "subtitles",
+      "start_s": 0.0,
+      "end_s": 62.0,
+      "duration_s": 62.0,
+      "source": "assets/subtitles/konsept_r.srt",
+      "notes": "Burn-in NL subtitle, 1 phrase/time, white outline + drop shadow"
+    },
+    {
+      "track": "A2",
+      "label": "jingle_intro",
+      "start_s": 0.0,
+      "end_s": 1.8,
+      "duration_s": 1.8,
+      "source": "assets/audio/jingle/intro.wav",
+      "notes": "Forte abrupt cut at t=0 (-6dB hit)"
+    },
+    {
+      "track": "A2",
+      "label": "jingle_outro",
+      "start_s": 62.0,
+      "end_s": 66.0,
+      "duration_s": 4.0,
+      "source": "assets/audio/jingle/outro.wav",
+      "notes": "Sustained + synth swell, fades over CTA card"
+    },
+    {
+      "track": "A3",
+      "label": "bed_music",
+      "start_s": 0.0,
+      "end_s": 66.0,
+      "duration_s": 66.0,
+      "source": "assets/audio/bed/underscore_25s.wav",
+      "notes": "Loop 25s clip 3x to fill 66s, sidechain compressor key A1 VO"
+    }
+  ],
+  "effects": [
+    {
+      "target": "V1+V2+V3",
+      "spec": "Color Grade \u2014 oxblood backdrop boost + warm bone overlay (DaVinci Color page)"
+    },
+    {
+      "target": "V1+V2+V3",
+      "spec": "Sharpen \u2014 Unsharp Mask amount=0.4, radius=1.2 (subtle, Veo 720p netlik boost)"
+    },
+    {
+      "target": "V1+V2+V3",
+      "spec": "Film Grain \u2014 subtle DaVinci OFX Grain @ 35mm 200ASA, opacity 18%"
+    },
+    {
+      "target": "V1+V2+V3",
+      "spec": "Chromatic Aberration \u2014 DaVinci OFX, amount 0.2px (cinematic feel)"
+    },
+    {
+      "target": "A1",
+      "spec": "EQ HPF 200Hz + presence +3dB @ 3kHz"
+    },
+    {
+      "target": "A1",
+      "spec": "Compressor 3:1, threshold -18dB"
+    },
+    {
+      "target": "A3",
+      "spec": "Sidechain Compressor \u2014 key A1 VO, ratio 4:1, threshold -22dB"
+    },
+    {
+      "target": "A3",
+      "spec": "EQ \u2014 1-4 kHz dip -4dB (VO pocket)"
+    },
+    {
+      "target": "Master",
+      "spec": "Bus Compressor 2:1"
+    },
+    {
+      "target": "Master",
+      "spec": "Normalize to -14 LUFS"
+    },
+    {
+      "target": "Master",
+      "spec": "True-peak limiter -1 dBFS"
+    }
+  ],
+  "topaz_pre_pipeline": [
+    "Step 1: import all 7 shot_##.mp4 to Topaz Video AI 6",
+    "Step 2: apply Proteus v4 model \u2014 Settings: Enhance Detail 35, Recover Detail 25,         Sharpen 15, Reduce Noise 18, Anti-Alias 20",
+    "Step 3: upscale 720x1280 -> 2160x3840 (4K vertical), then downscale 1080x1920 in DaVinci",
+    "Step 4: export as ProRes 422 HQ (.mov) -> assets/video/konsept_r/topaz/",
+    "Step 5: import Topaz outputs into DaVinci V1 (replace original Veo shots)"
+  ]
+}
