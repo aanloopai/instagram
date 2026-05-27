@@ -76,7 +76,7 @@ SHOTS = [
     {
         "id": 3,
         "ref": "frontal.png",
-        "duration": 7,
+        "duration": 8,
         "vo": "En het mooiste? Maakt Marco binnen 3 maanden geen 5 nieuwe afspraken? Dan krijg je elke euro terug.",
         "prompt": (
             "The man in the reference image, exact same identity, frontal "
@@ -91,7 +91,7 @@ SHOTS = [
     {
         "id": 4,
         "ref": "three_quarter_right.png",
-        "duration": 9,
+        "duration": 8,
         "vo": "Samen kijken we naar jouw bedrijf en bouwen we de AI-collega met het hoogste rendement. Onze klanten besparen daardoor tijd op handmatig werk en personeelskosten.",
         "prompt": (
             "The man in the reference image, exact same identity, head turned "
@@ -106,7 +106,7 @@ SHOTS = [
     {
         "id": 5,
         "ref": "frontal.png",
-        "duration": 7,
+        "duration": 8,
         "vo": "En omdat we Nederland willen veroveren, bieden we tijdelijk een gratis AI-Readiness Scan. Wat krijg je?",
         "prompt": (
             "The man in the reference image, exact same identity, frontal "
@@ -122,7 +122,7 @@ SHOTS = [
     {
         "id": 6,
         "ref": "three_quarter_left.png",
-        "duration": 9,
+        "duration": 8,
         "vo": "Zo werkt Marco voor onze klanten: hij belt 24/7, mist nooit een lead, en zorgt voor meer afspraken in minder tijd.",
         "prompt": (
             "The man in the reference image, exact same identity, head turned "
@@ -138,20 +138,19 @@ SHOTS = [
     {
         "id": 7,
         "ref": "frontal.png",
-        "duration": 11,
-        "vo": "Niet gek dat onze klanten ons 4,9 uit 5 sterren geven op Google. Dus wil jij ontdekken hoe AI jouw MKB kan laten groeien? Claim nu jouw gratis AI-Readiness Scan.",
+        "duration": 8,
+        "vo": "Dus wil jij ontdekken hoe AI jouw MKB kan laten groeien? Claim nu jouw gratis AI-Readiness Scan.",
         "prompt": (
             "The man in the reference image, exact same identity, frontal "
-            "medium close-up. The closer of the ad. On 'Niet gek dat' subtle "
-            "knowing smile (validated proud). On '4,9 uit 5 sterren' (spoken "
-            "'vier-komma-negen uit vijf sterren') confident matter-of-fact "
-            "delivery, not bragging. On 'Dus wil jij ontdekken hoe AI' head "
-            "tilts a fraction toward camera (direct address). On 'Claim nu' "
-            "delivery sharpens into clean call-to-action, slight forward "
-            "intent in posture (no zoom), confident smile, eyes locked to "
-            "camera. Held final beat for transition to CTA card. Energy 7 "
-            "build to 9 out of 10 on CTA, pacing 145 to 130 WPM slowing on "
-            "'Claim nu' for clarity. NOT shouted."
+            "medium close-up. The closer of the ad. On 'Dus wil jij "
+            "ontdekken hoe AI' head tilts a fraction toward camera (direct "
+            "address). On 'Claim nu' delivery sharpens into clean call-to-"
+            "action, slight forward intent in posture (no zoom), confident "
+            "smile, eyes locked to camera. Held final beat for transition "
+            "to CTA card. Energy 8 to 9 out of 10 on CTA, pacing 130 WPM "
+            "slowing on 'Claim nu' for clarity. NOT shouted. Social proof "
+            "'4,9 uit 5 sterren' will be added as overlay text in DaVinci, "
+            "not spoken here."
         ),
     },
 ]
