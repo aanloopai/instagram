@@ -23,8 +23,16 @@ vo:
 	python scripts/generate_vo.py
 
 video:
-	@echo "==> Veo 3: 6 speaking shots (Google AI Studio)"
+	@echo "==> Veo 3: 6 speaking shots (Google AI Studio) — Konsept A"
 	python scripts/generate_veo3.py
+
+video-r:
+	@echo "==> Veo 3 omni image-to-video: 7 narrator shots — Konsept R"
+	python scripts/generate_veo3_r.py
+
+video-r-test:
+	@echo "==> Veo 3 omni single-shot test (shot 1, ~3-8min)"
+	python scripts/generate_veo3_r.py --shot 1
 
 kling:
 	@echo "==> Kling AI API: 8 action / b-roll shots"
