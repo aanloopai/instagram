@@ -38,10 +38,25 @@ DEFAULT_MODEL = "veo-3.0-generate-001"
 SHARED_VEO_TAIL = (
     " Same outfit (white t-shirt with black lavalier microphone), same burnt-"
     "orange oxblood backdrop, single warm key light from front-left, locked-off "
-    "medium close-up camera, 9:16 vertical 1080x1920 frame. Mouth lip-syncs "
-    "accurately to spoken Dutch with native Randstad accent. Natural eye "
-    "blinks every 3-4 seconds. Hands not visible. No body movement below "
-    "shoulders. No camera shake. Studio quiet, no background music in audio."
+    "medium close-up camera, 9:16 vertical frame. "
+    "STRICT IDENTITY LOCK: his face remains visually identical to the reference "
+    "photo throughout the entire shot — same exact face proportions, same skin "
+    "tone and texture, same hair, same eye shape and color, same nose, same "
+    "jawline, same stubble pattern. NO identity drift, no morphing, no face "
+    "shifting. "
+    "MOUTH DISCIPLINE: speaks like a real person on an indoor podcast, not a "
+    "theatrical actor. Natural conversational lip movement, SUBTLE lip shapes. "
+    "Mouth barely opens for most syllables. Jaw stays nearly closed on soft "
+    "consonants. NO exaggerated jaw drop. NO over-articulated speech. NO "
+    "shouting. NO mouth-wide-open vowels. Voice is calm controlled "
+    "conversational volume, normal speaking energy. "
+    "MICRO-MOVEMENT: very subtle head movement, almost still, no exaggerated "
+    "nods or tilts, no big head turns. Natural eye blinks every 3-4 seconds. "
+    "Hands not visible. No body movement below shoulders. No camera shake. "
+    "SEAMLESS CUT POSE: starts the shot with a relaxed neutral expression "
+    "and mouth closed, ends the shot with a relaxed neutral expression and "
+    "mouth closed (ready for hard cut to next shot). "
+    "Studio quiet, no background music in audio, only the spoken Dutch line."
 )
 
 SHOTS = [
@@ -182,7 +197,6 @@ def generate_shot(client, shot: dict, model: str, force: bool, poll_seconds: int
         number_of_videos=1,
         duration_seconds=shot["duration"],
         aspect_ratio="9:16",
-        person_generation="allow_adult",
     )
 
     op = client.models.generate_videos(model=model, prompt=full_prompt, image=ref_image, config=cfg)
