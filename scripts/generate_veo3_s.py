@@ -32,15 +32,20 @@ OUTPUT_DIR = Path("assets/video/konsept_s/veo3")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 REF_DIR = Path("assets/characters/konsept_s")
 
-DEFAULT_MODEL = "veo-3.1-fast-generate-preview"
+DEFAULT_MODEL = "veo-3.1-generate-preview"
 
 SHARED_VEO_TAIL = (
-    " Same outfit (plain white t-shirt with black lavalier microphone), same "
+    " Photorealistic real human, hyperreal natural skin micro-texture, real "
+    "human pores and fine facial detail, no plastic AI rendering, no waxy "
+    "skin, no glassy AI eyes, looks like a real person filmed on a high-end "
+    "mirrorless camera (Sony FX3 / 50mm prime f1.8 shallow depth of field, "
+    "slight natural skin blemishes), broadcast-quality footage. "
+    "Same outfit (plain white t-shirt with black lavalier microphone), same "
     "deep midnight navy plain seamless backdrop (uniform dark blue-black, NO "
     "stripes, NO color bars, NO accent lines, NO graphics, NO text, NO logos "
     "in the scene), same cool cinematic studio lighting (cool-neutral key "
-    "from front-left, gentle fill, subtle rim light), locked-off medium "
-    "close-up camera, 9:16 vertical frame. "
+    "from front-left, gentle fill, subtle rim light), locked-off camera, "
+    "9:16 vertical frame. "
     "ABSOLUTE IDENTITY LOCK: every single frame of this shot shows EXACTLY "
     "the same face from the reference image. The face does NOT change, "
     "morph, drift, age, or shift even slightly between frames. Same exact "
@@ -49,6 +54,16 @@ SHARED_VEO_TAIL = (
     "shape, same chin, same forehead. Treat the reference image like a "
     "locked appearance template — only the head pose and lips animate, "
     "everything else about the face stays mathematically identical. "
+    "UNIFORM FRAMING LOCK: every speaker is filmed at the EXACT same camera "
+    "distance in a WIDE MEDIUM SHOT — framed from the waist up, showing the "
+    "full upper body, both shoulders and the chest, with generous headroom "
+    "above the head. The subject is clearly pulled back from the camera and "
+    "appears medium-small in the 9:16 frame (the head occupies only the "
+    "upper third of the frame — NOT a tight face close-up, NOT a chest-up "
+    "close shot). Every single character is the EXACT same size in frame and "
+    "the EXACT same distance from camera as every other character: identical "
+    "headroom, identical subject scale, identical eyeline height. Consistent "
+    "locked framing across the whole campaign. "
     "MOUTH DISCIPLINE: speaks like a real person on an indoor podcast, not a "
     "theatrical actor. Natural conversational lip movement, SUBTLE lip "
     "shapes. Mouth barely opens for most syllables. Jaw stays nearly closed "
@@ -61,7 +76,15 @@ SHARED_VEO_TAIL = (
     "SEAMLESS CUT POSE: starts and ends the shot with a relaxed neutral "
     "expression and mouth nearly closed (ready for Hollywood face-morph "
     "transition to next character). "
-    "Studio quiet, no background music in audio, only the spoken Dutch line."
+    "SPEECH TIMING: the character finishes speaking the entire Dutch line "
+    "within the first 6 to 7 seconds, at a calm natural pace, then holds a "
+    "relaxed neutral closed-mouth expression in silence until the shot ends. "
+    "The sentence is fully completed — NEVER cut off mid-word or mid-sentence "
+    "at the end of the shot; the final second is a clean silent tail. "
+    "AUDIO: absolute dead-silent studio — completely dry close-mic voice, "
+    "ZERO background music, ZERO ambient hum, ZERO room tone or reverb, ZERO "
+    "sound effects. The ONLY sound anywhere in the clip is the clean spoken "
+    "Dutch voice; during the silent tail there is pure silence."
 )
 
 SHOTS = [
